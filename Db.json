@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "email": "Decubber@gmail.com",
+      "password": "$2a$10$sIzSOi6QJZkABM90z47c.OiZbznvacvUC/JEn.hnBmzYmuvlu4TIW",
+      "id": 1,
+      "username": "Jayson"
+    },
+    {
+      "email": "decubber@gmail.com",
+      "password": "$2a$10$rVkZAJ9C7.DF0MK2EDMeEe8ceTYFHMj5xlT2WXb8AxDqmJxpeLeuC",
+      "id": 2,
+      "username": "jayson"
+    },
+    {
+      "email": "decubber42@gmail.com",
+      "password": "$2a$10$4DfxVvdu6Z.C/hDxBDlimOwkLTseyCr8GQOFMq8VUdfyFO70RG436",
+      "id": 3,
+      "username": "jayson"
+    },
+    {
+      "email": "decubver69@gmail.com",
+      "password": "$2a$10$cKU9oRfCVfCLDPpBMtZ2ces/hn.akc2FS6nOjQZ9JvZg0gCOVnJri",
+      "id": 4,
+      "username": "Json"
+    },
+    {
+      "email": "decubberjson96@gmail.com",
+      "password": "$2a$10$1LruN5RsFLaydqPyfpHOEebuEfgQcewx/PuyW94RvJV.LkTfbvLiy",
+      "id": 5,
+      "username": "Json"
+    },
+    {
+      "email": "decubberjayson@gmail.com",
+      "password": "$2a$10$xJsnQjo45oGFBcWLylZFsuExzZLIAWgj3w5kJWqXeX/6ALZY06koW",
+      "id": 6,
+      "username": "json"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "src": "pic03.jpg",
+      "lien": "Linkzeertyurtè_çà",
+      "titre": "frtyu^$Try",
+      "alt": "Haltezeè_çà)eryè_çà)",
+      "description": "Description Resetrtàç'(-è_çà=)"
+    },
+    {
+      "id": 2,
+      "src": "pic04.jpg",
+      "lien": "Linkerty-èoà)per-tè_çà",
+      "titre": "Tryertyuiop^$rtyoàp",
+      "alt": "er(ty-èoà)perty-è_çàHalte",
+      "description": "Description erty-èoà)perty-èu_Reset"
+    },
+    {
+      "id": 3,
+      "src": "pic04.jpg",
+      "lien": "Linkrtyuiopêrtyuio",
+      "titre": "rtyèu_ioprtyuioTry",
+      "alt": "Haltedytuiop^",
+      "description": "Description Resetdrtyoàpŝertyuiop"
+    },
+    {
+      "id": 4,
+      "src": null,
+      "lien": "Linkserty^p*",
+      "titre": "Tryertoàpêrty",
+      "alt": "Halte",
+      "description": "Description Reset"
+    },
+    {
+      "id": 5,
+      "src": "pic03.jpg",
+      "lien": "Linksderty=^$rtç_à)=",
+      "titre": "Tryefroiprtyu)p",
+      "alt": "Halteertyà)=rtyu_i",
+      "description": "Description Rer(t-è_çà)=eset"
+    }
+  ]
+}

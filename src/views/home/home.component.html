@@ -1,0 +1,25 @@
+
+<!-- Section -->
+<section class="posts-section">
+  <header class="major">
+    <h2>Ipsum sed dolor</h2>
+  </header>
+  <app-stepper>
+    <div class="posts">
+      <app-step>
+        <ng-container>
+        @for (article of (data | async)?.slice(0, 3); track $index) {
+
+          @if(article.src) {
+            <app-article [article]="article" (articleDeleted)="data = service.all()"/>
+          }
+        }
+        @empty {
+          <p>Aucun articles</p>
+        }
+        </ng-container>
+      </app-step>
+    </div>
+
+  </app-stepper>
+</section>

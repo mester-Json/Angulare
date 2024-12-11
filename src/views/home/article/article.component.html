@@ -1,0 +1,11 @@
+<article class="post">
+  <a [href]="article.lien" class="image">
+    <img src="asset/images/{{article.src}}" [alt]="article.alt" />
+  </a>
+  <h3>{{article.titre}}</h3>
+  <p>{{article.description}}</p>
+  <ul class="actions">
+    <a routerLink="/editor/{{article.id}}" class="button">Edit</a>
+    <button (click)="delete()" class="button">Delete</button>
+  </ul>
+</article>

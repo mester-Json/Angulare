@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/home" class="navbar-logo">Voici Les Articles</a>
+    <ul class="navbar-menu">
+      <li><a href="/">Accueil </a></li>
+      @if(auth.isLogged) {
+      <li><a routerLink="editor/0">Nouvel Article</a></li>
+        <li><button (click)="auth.logout()">Logout</button></li>
+
+      } @else {
+
+      <li><a href="/login">Connexion </a></li>
+      <li><a href="/register">Pas de compte </a></li>
+      }
+    </ul>
+  </div>
+</nav>
+
+
